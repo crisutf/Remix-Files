@@ -14,9 +14,9 @@ A huge thank you to **Plooshware** and **Andrew** for their dedication and hard 
 
 ### Repository Structure
 
-- **`Files/`**: Core binaries, including the authenticated DLL and patched game executable.
-- **`Remix-Backend/`**: Backend services, API endpoints, and core server logic.
-- **`Remix-GS/`**: Game server utilities and operational scripts.
-- **`Remix-Launcher/`**: Client desktop launcher application.
-- **`Remix-Matchmaker/`**: Matchmaking service implementation.
-- **`Remix-Redirect/`**: Network traffic routing and redirect handlers.
+- **`Files/`**: Authenticated DLL and patched game executable.
+- **`Remix-Backend/`**: Backend.
+- **`Remix-GS/`**: Game server.
+- **`Remix-Launcher/`**: Launcher.
+- **`Remix-Matchmaker/`**: Matchmaking.
+- **`Remix-Redirect/`**: Redirect.
