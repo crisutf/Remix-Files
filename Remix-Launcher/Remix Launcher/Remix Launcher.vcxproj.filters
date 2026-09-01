@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\api">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\ui">
+      <UniqueIdentifier>{A1B2C3D4-0001-0001-0001-000000000001}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\ui\pages">
+      <UniqueIdentifier>{A1B2C3D4-0001-0001-0001-000000000002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\ui\pages\src">
+      <UniqueIdentifier>{B2C3D4E5-0001-0001-0001-000000000020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\ui\pages\include">
+      <UniqueIdentifier>{B2C3D4E5-0001-0001-0001-000000000021}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\ui\components">
+      <UniqueIdentifier>{A1B2C3D4-0001-0001-0001-00000000000A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\ui\components\src">
+      <UniqueIdentifier>{B2C3D4E5-0001-0001-0001-000000000030}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\ui\components\include">
+      <UniqueIdentifier>{B2C3D4E5-0001-0001-0001-000000000031}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\utils">
+      <UniqueIdentifier>{A1B2C3D4-0001-0001-0001-00000000000D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\utils\obfuscation">
+      <UniqueIdentifier>{B2C3D4E5-0001-0001-0001-000000000040}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\anim">
+      <UniqueIdentifier>{A1B2C3D4-0001-0001-0001-00000000000E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\vendor">
+      <UniqueIdentifier>{A1B2C3D4-0001-0001-0001-00000000000F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\vendor\imgui">
+      <UniqueIdentifier>{A1B2C3D4-0001-0001-0001-000000000010}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\vendor\imgui\backends">
+      <UniqueIdentifier>{A1B2C3D4-0001-0001-0001-000000000011}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\launch">
+      <UniqueIdentifier>{A1B2C3D4-0001-0001-0001-000000000012}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\launch\news">
+      <UniqueIdentifier>{B2C3D4E5-0001-0001-0001-000000000050}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\arc">
+      <UniqueIdentifier>{C1D2E3F4-0001-0001-0001-000000000013}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="entrypoint.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="source\api\api.cpp">
+      <Filter>source\api</Filter>
+    </ClCompile>
+    <ClCompile Include="source\arc\arc.cpp">
+      <Filter>source\arc</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ui\render.cpp">
+      <Filter>source\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ui\pages\src\home.cpp">
+      <Filter>source\ui\pages\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ui\pages\src\friends.cpp">
+      <Filter>source\ui\pages\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ui\pages\src\library.cpp">
+      <Filter>source\ui\pages\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ui\pages\src\downloads.cpp">
+      <Filter>source\ui\pages\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ui\pages\src\login.cpp">
+      <Filter>source\ui\pages\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ui\pages\src\settings.cpp">
+      <Filter>source\ui\pages\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ui\pages\src\sidebar.cpp">
+      <Filter>source\ui\pages\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\ui\components\src\toast.cpp">
+      <Filter>source\ui\components\src</Filter>
+    </ClCompile>
+    <ClCompile Include="source\utils\utils.cpp">
+      <Filter>source\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="source\anim\anim.cpp">
+      <Filter>source\anim</Filter>
+    </ClCompile>
+    <ClCompile Include="source\launch\launch.cpp">
+      <Filter>source\launch</Filter>
+    </ClCompile>
+    <ClCompile Include="source\launch\news\news.cpp">
+      <Filter>source\launch\news</Filter>
+    </ClCompile>
+    <ClCompile Include="source\vendor\imgui\imgui.cpp">
+      <Filter>source\vendor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\vendor\imgui\imgui_demo.cpp">
+      <Filter>source\vendor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\vendor\imgui\imgui_draw.cpp">
+      <Filter>source\vendor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\vendor\imgui\imgui_tables.cpp">
+      <Filter>source\vendor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\vendor\imgui\imgui_widgets.cpp">
+      <Filter>source\vendor\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="source\vendor\imgui\backends\imgui_impl_dx11.cpp">
+      <Filter>source\vendor\imgui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="source\vendor\imgui\backends\imgui_impl_win32.cpp">
+      <Filter>source\vendor\imgui\backends</Filter>
+    </ClCompile>
+    <ClCompile Include="source\launch\launch_game.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\includes.hpp">
+      <Filter>source</Filter>
+    </ClInclude>
+    <ClInclude Include="source\api\api.hpp">
+      <Filter>source\api</Filter>
+    </ClInclude>
+    <ClInclude Include="source\arc\arc.hpp">
+      <Filter>source\arc</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ui\render.hpp">
+      <Filter>source\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ui\defines.hpp">
+      <Filter>source\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ui\pages\include\home.hpp">
+      <Filter>source\ui\pages\include</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ui\pages\include\friends.hpp">
+      <Filter>source\ui\pages\include</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ui\pages\include\library.hpp">
+      <Filter>source\ui\pages\include</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ui\pages\include\downloads.hpp">
+      <Filter>source\ui\pages\include</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ui\pages\include\login.hpp">
+      <Filter>source\ui\pages\include</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ui\pages\include\settings.hpp">
+      <Filter>source\ui\pages\include</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ui\pages\include\sidebar.hpp">
+      <Filter>source\ui\pages\include</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ui\components\include\toast.hpp">
+      <Filter>source\ui\components\include</Filter>
+    </ClInclude>
+    <ClInclude Include="source\utils\utils.hpp">
+      <Filter>source\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="source\anim\anim.hpp">
+      <Filter>source\anim</Filter>
+    </ClInclude>
+    <ClInclude Include="source\launch\launch.hpp">
+      <Filter>source\launch</Filter>
+    </ClInclude>
+    <ClInclude Include="source\launch\news\news.hpp">
+      <Filter>source\launch\news</Filter>
+    </ClInclude>
+    <ClInclude Include="source\vendor\imgui\imgui.h">
+      <Filter>source\vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\vendor\imgui\imgui_internal.h">
+      <Filter>source\vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\vendor\imgui\imconfig.h">
+      <Filter>source\vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\vendor\imgui\imstb_rectpack.h">
+      <Filter>source\vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\vendor\imgui\imstb_textedit.h">
+      <Filter>source\vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\vendor\imgui\imstb_truetype.h">
+      <Filter>source\vendor\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="source\vendor\imgui\backends\imgui_impl_dx11.h">
+      <Filter>source\vendor\imgui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="source\vendor\imgui\backends\imgui_impl_win32.h">
+      <Filter>source\vendor\imgui\backends</Filter>
+    </ClInclude>
+    <ClInclude Include="source\vendor\json.hpp">
+      <Filter>source\vendor</Filter>
+    </ClInclude>
+    <ClInclude Include="source\vendor\sha1.h">
+      <Filter>source\vendor</Filter>
+    </ClInclude>
+    <ClInclude Include="source\ui\assets\banner.hpp" />
+    <ClInclude Include="source\ui\assets\font.hpp" />
+    <ClInclude Include="source\ui\assets\icons.hpp" />
+    <ClInclude Include="source\ui\assets\logo.hpp" />
+    <ClInclude Include="source\ui\assets\splash.hpp" />
+    <ClInclude Include="source\ui\assets\assets.hpp" />
+    <ClInclude Include="source\launch\launch_game.hpp" />
+    <ClInclude Include="source\utils\obfuscation\lazy\lazy.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc">
+      <Filter>source</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
