@@ -1,0 +1,2 @@
+*.exe filter=lfs diff=lfs merge=lfs -text
+Files/Remix.FortniteClient-Win64-Shipping.exe filter=lfs diff=lfs merge=lfs -text
